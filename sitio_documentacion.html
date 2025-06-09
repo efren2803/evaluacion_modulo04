@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menú de Navegación</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Menú</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#topic1">Diagrama de Paquetes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#topic2">Diagrama de Casos de Uso</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#topic3">Diagrama de Clases (General)</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <section id="topic1" class="mb-5">
+            <h2>Evaluación de Módulo 4</h2>
+        </section>
+
+        <section id="topic1" class="mb-5">
+            <h2>Diagrama de Paquetes</h2>
+            <div class="card p-3">
+                <p>Diagrama de paquetes propuesto de solución al módulo 04</p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#img1">Mostrar/Ocultar Imagen</button>
+                <div class="collapse mt-2 align-items-center" id="img1">
+                    <img src="./assets/images/DiagramaPaquetesGeneral_v1_0.png" class="img-fluid" alt="Imagen">
+                </div>
+            </div>
+        </section>
+
+        <section id="topic2" class="mb-5">
+            <h2>Diagrama de Casos de Uso (General)</h2>
+            <div class="card p-3">
+                <p>Se propone el siguiente diagrama de casos de uso para la solución</p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#imgRa">Mostrar/Ocultar Imagen</button>
+                <div class="collapse mt-2 align-items-center" id="imgRa">
+                    <img src="./assets/images/DiagramaCasosUsoGeneral_v1_0.png" class="img-fluid" alt="Imagen">
+                </div>
+            </div>
+        </section>
+
+        <section id="topic3" class="mb-5">
+            <h2>Diagrama de Clases</h2>
+            <div class="card p-3">
+                <p>ApiWeb Módulo 04 General</p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#imgC0">Mostrar/Ocultar Imagen</button>
+                <div class="collapse mt-2" id="imgC0">
+                    <img src="./assets/images/DiagramaClasesGeneral_v1_0.png" class="img-fluid" alt="Imagen">
+                </div>
+                <br>
+                <p>La ApiWeb se acopla al Core</p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#imgD0">Mostrar/Ocultar Imagen</button>
+                <div class="collapse mt-2" id="imgD0">
+                    <img src="./assets/images/DiagramaClases_Core_v1_0.png" class="img-fluid" alt="Imagen 2">
+                </div>
+                <br>
+                <p>y al paquete de Componente</p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#imgD0">Mostrar/Ocultar Imagen</button>
+                <div class="collapse mt-2" id="imgD0">
+                    <img src="./assets/images/DiagramaClases_Componente_v1_0.png" class="img-fluid" alt="Imagen 2">
+                </div>
+                <br>
+                <p>Los siguientes links nos diriguen hacia la funcionalidad de APIWeb más a detalle </p>
+                <div class="mt-2">
+                    <a href="nivel_1_1.html" class="btn btn-link">Ver "1. Generación de Cotización"</a>
+                </div>
+                <div class="mt-2">
+                    <a href="nivel_1_2.html" class="btn btn-link">Ver "1. Alta de Componentes"</a>
+                </div>
+                <div class="mt-2">
+                    <a href="nivel_1_3.html" class="btn btn-link">Ver "3. Mostrar y Borrar Componentes"</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
